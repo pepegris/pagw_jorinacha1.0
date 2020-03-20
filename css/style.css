@@ -370,6 +370,16 @@ h6 {
   font-weight: 600;
   font-size: 24px;
 }
+#about .img-fluid {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+}
 
 /* Services Section
 --------------------------------*/
@@ -419,7 +429,7 @@ h6 {
 }
 
 #services .box:hover .title a {
-  color: #83105e;
+  color: #101283;
 }
 
 #services .description {
@@ -826,19 +836,7 @@ h6 {
   font-size: 14px;
 }
 
-#contact .form button[type="submit"] {
-  background: #014ea0;
-  border: 0;
-  border-radius: 20px;
-  padding: 8px 30px;
-  color: #fff;
-  transition: 0.3s;
-}
 
-#contact .form button[type="submit"]:hover {
-  background: #283d50;
-  cursor: pointer;
-}
 
 /*--------------------------------------------------------------
 # Footer
