@@ -17,8 +17,9 @@ a {
 
 a:hover,
 a:active,
-a:focus {
-  color: black;
+a:focus 
+li{
+  color: white;
   outline: none;
   text-decoration: none;
 }
