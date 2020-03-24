@@ -11,7 +11,7 @@ body {
 }
 
 a {
-  color: #9147ff;
+  color: #83105e;
   transition: 0.5s;
 }
 
@@ -192,12 +192,12 @@ h6 {
 
 #intro .intro-info h2 span {
   color: #fff;
-  text-decoration: underline grey;
+  text-decoration: underline black;
 }
 
 
 #intro .intro-info .btn-get-started {
-  background: #9147ff;
+  background: #283d50;
   border: 2px solid #fff;
   color: #fff;
 }
@@ -213,7 +213,7 @@ h6 {
 }
 
 #intro .intro-info .btn-services:hover {
-  background: #9147ff;
+  background: #283d50;
   border-color: #ffffff;
   color: #fff;
 }
@@ -328,17 +328,17 @@ h6 {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid grey;
+  border: 2px solid #283d50;
   transition: all 0.3s ease-in-out;
 }
 
 #about .about-container .icon-box .icon i {
-  color: grey;
+  color: #283d50;
   font-size: 24px;
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #9147ff;
+  background: #283d50;
 }
 
 #about .about-container .icon-box:hover .icon i {
@@ -376,7 +376,7 @@ h6 {
   overflow: hidden;
   border-radius: 10px;
   margin: 0 10px 40px 10px;
-  background: grey;
+  background: rgba(0, 0, 0, 0.1);
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
 }
@@ -386,7 +386,7 @@ h6 {
 
 #services {
   padding: 60px 0 40px 0;
-  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.432);
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
 #services .box {
@@ -429,7 +429,7 @@ h6 {
 }
 
 #services .box:hover .title a {
-  color: #9147ff;
+  color: #101283;
 }
 
 #services .description {
@@ -446,7 +446,7 @@ h6 {
 
 #portfolio {
   padding: 60px 0;
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.432);
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
 #portfolio #portfolio-flters {
@@ -473,7 +473,7 @@ h6 {
 /*POR AQUI VOY */
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  background: #9147ff;
+  background: #283d50;
   color: #fff;
 }
 
@@ -540,7 +540,7 @@ h6 {
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
-  color: #9147ff;
+  color: black;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
@@ -559,7 +559,7 @@ h6 {
   text-align: center;
   width: 36px;
   height: 36px;
-  background: grey;
+  background: #283d50;
   border-radius: 50%;
   margin: 10px 4px 0 4px;
 }
@@ -573,7 +573,7 @@ h6 {
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
-  background: #9147ff;
+  background: #007bff;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
@@ -594,9 +594,9 @@ h6 {
 --------------------------------*/
 
 #team {
-  background: #ecf5ff;
+  background: #283d5049;
   padding: 60px 0 40px 0;
-  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.432);
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
 #team .member {
@@ -669,7 +669,7 @@ h6 {
 }
 
 #team .member .social a:hover {
-  color: #9147ff;
+  color: #007bff;
 }
 
 #team .member .social i {
@@ -681,7 +681,6 @@ h6 {
 --------------------------------*/
 
 #clients {
-  background-color: white;
   padding: 60px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
@@ -785,7 +784,7 @@ h6 {
 
 #contact .info i {
   font-size: 32px;
-  color: #9147ff;
+  color: #007bff;
   float: left;
   line-height: 1;
 }
@@ -797,8 +796,8 @@ h6 {
 }
 
 #contact .form #sendmessage {
-  color: #9147ff;
-  border: 1px solid #9147ff;
+  color: #007bff;
+  border: 1px solid #007bff;
   display: none;
   text-align: center;
   padding: 15px;
@@ -851,7 +850,7 @@ h6 {
 }
 
 #footer .footer-top {
-  background: grey;
+  background: #283d50;
   padding: 60px 0 30px 0;
 }
 
@@ -860,13 +859,12 @@ h6 {
 }
 
 #footer .footer-top .footer-info h3 {
-  font-size: 45px;
- 
+  font-size: 34px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
-  color: #9147ff;
+  color: #fff;
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -883,7 +881,7 @@ h6 {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: rgba(0, 0, 0, 0.808);
+  background: #007bff;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -896,7 +894,7 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #9147ff;
+  background: #0067d5;
   color: #fff;
 }
 
