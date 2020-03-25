@@ -10,16 +10,28 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-a {
+.navbar-brand {
   color: #9147ff;
   transition: 0.5s;
+ font-size: 30px;
 }
-
+.nav-link {
+  color: black;
+  transition: 0.5s;
+}
 a:hover,
 a:active,
 a:focus 
-li{
-  color: white;
+{
+  color: black;
+  outline: none;
+  text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus 
+{
+  color: #9147ff;
   outline: none;
   text-decoration: none;
 }
@@ -46,7 +58,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: black;
+  background: #9147ff;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -127,7 +139,7 @@ h6 {
   transition: all 0.5s;
 
 /*  background: #fff;*/
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
+  box-shadow: 0px 0px 30px black;
 }
 
 #header.header-scrolled,
@@ -193,7 +205,7 @@ h6 {
 
 #intro .intro-info h2 span {
   color: #fff;
-  text-decoration: underline grey;
+  text-decoration: underline #9147ff;
 }
 
 
@@ -329,12 +341,12 @@ h6 {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid grey;
+  border: 2px solid rgb(49, 44, 44);
   transition: all 0.3s ease-in-out;
 }
 
 #about .about-container .icon-box .icon i {
-  color: grey;
+  color: rgb(49, 44, 44);
   font-size: 24px;
 }
 
@@ -397,7 +409,7 @@ h6 {
   border-radius: 10px;
   margin: 0 10px 40px 10px;
   background: #fff;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  box-shadow: 0 10px 29px 0 rgba(0, 0, 0, 0.493);
   transition: all 0.3s ease-in-out;
 }
 
@@ -682,9 +694,9 @@ h6 {
 --------------------------------*/
 
 #clients {
-  background-color: white;
+  background-color: #ecf5ff;
   padding: 60px 0;
-  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.432);
 }
 
 #clients .clients-wrap {
